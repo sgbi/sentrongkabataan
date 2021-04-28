@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-front-left",
-      "name": "Front-Left",
+      "id": "0-sk-front-left",
+      "name": "SK Front Left",
       "levels": [
         {
           "tileSize": 256,
@@ -24,29 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.07768981696443866,
-        "pitch": 0.9918328004604575,
-        "fov": 1.4134061960355204
+        "yaw": 0.03490912606880592,
+        "pitch": 0.7046389096249399,
+        "fov": 1.3378744097411812
       },
       "linkHotspots": [
         {
-          "yaw": 0.2032949946989131,
-          "pitch": 0.3301007229397612,
+          "yaw": 0.16903639870443854,
+          "pitch": 0.2587815711374475,
           "rotation": 0,
-          "target": "2-back"
+          "target": "2-sk-back"
         },
         {
-          "yaw": -0.8829460462677172,
-          "pitch": 0.31684549021205655,
+          "yaw": -0.8791602227199036,
+          "pitch": 0.16980390352023988,
           "rotation": 0,
-          "target": "1-front-right"
+          "target": "1-sk-front-right"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-front-right",
-      "name": "Front-Right",
+      "id": "1-sk-front-right",
+      "name": "SK Front Right",
       "levels": [
         {
           "tileSize": 256,
@@ -68,29 +68,29 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.5777701768647265,
-        "pitch": 1.0347014999950925,
-        "fov": 1.4134061960355204
+        "yaw": 0.04030143602880365,
+        "pitch": 0.7403233944079819,
+        "fov": 1.3378744097411812
       },
       "linkHotspots": [
         {
-          "yaw": 1.0134060902825581,
-          "pitch": 0.29118066023213274,
+          "yaw": -0.5198487400694454,
+          "pitch": 0.4209198801883165,
           "rotation": 0,
-          "target": "0-front-left"
+          "target": "2-sk-back"
         },
         {
-          "yaw": -0.47302683027855963,
-          "pitch": 0.3849797877165173,
+          "yaw": 0.9528889229367987,
+          "pitch": 0.23660612499394595,
           "rotation": 0,
-          "target": "2-back"
+          "target": "0-sk-front-left"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-back",
-      "name": "Back",
+      "id": "2-sk-back",
+      "name": "SK Back",
       "levels": [
         {
           "tileSize": 256,
@@ -112,28 +112,28 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.03537947930170304,
-        "pitch": 0.6141765707451903,
-        "fov": 1.4134061960355204
+        "yaw": -0.006296861653673602,
+        "pitch": 0.4152607015185339,
+        "fov": 1.3378744097411812
       },
       "linkHotspots": [
         {
-          "yaw": -0.5056177465334315,
-          "pitch": 0.14585235711200895,
+          "yaw": 0.6588377538350887,
+          "pitch": -0.07074957850971053,
           "rotation": 0,
-          "target": "1-front-right"
+          "target": "1-sk-front-right"
         },
         {
-          "yaw": 0.6035146859262976,
-          "pitch": 0.14631297892850625,
+          "yaw": -0.6227369875023108,
+          "pitch": -0.07752070826371948,
           "rotation": 0,
-          "target": "0-front-left"
+          "target": "0-sk-front-left"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "SentroNgKabataan",
+  "name": "Sentro ng Kabataan",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
